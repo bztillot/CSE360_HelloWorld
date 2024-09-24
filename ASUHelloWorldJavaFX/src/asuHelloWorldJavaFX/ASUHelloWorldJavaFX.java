@@ -21,7 +21,7 @@ public class ASUHelloWorldJavaFX extends Application {
         btn.setText("Display: 'Blake says: Hello World!'");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
-                System.out.println("Blake says: Hello World!");
+                System.out.println("Blake says Hello World!");
             }
         });
         
